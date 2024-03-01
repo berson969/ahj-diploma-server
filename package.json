@@ -17,6 +17,7 @@
     "@faker-js/faker": "^8.4.1",
     "@koa/cors": "^5.0.0",
     "@koa/router": "^12.0.1",
+    "forever": "^4.0.3",
     "koa": "^2.15.0",
     "koa-body": "^6.0.1",
     "uuid": "^9.0.1",
