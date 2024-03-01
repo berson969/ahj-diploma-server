@@ -1,7 +1,7 @@
 const {faker} = require("@faker-js/faker");
 
 
-const messages = [...Array(100)].map(() => {
+const messages = [...Array(9)].map(() => {
     const messageType = ['text', 'image'][Math.floor(Math.random() * 2)];
     const href =  (Math.random() < 0.5) ? faker.internet.url() : "";
 
